@@ -1,0 +1,22 @@
+{
+  "name": "serverComms",
+  "version": "1.0.0",
+  "description": "Component to facilitate communication with an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prismatik/serverComms.git"
+  },
+  "author": "david@banham.id.au",
+  "license": "Proprietary",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Prismatik/serverComms/issues"
+  },
+  "homepage": "https://github.com/Prismatik/serverComms",
+  "dependencies": {
+  }
+}
