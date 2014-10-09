@@ -1,7 +1,9 @@
 var url = require('url');
+var $;
 
-var ServerComms = function(BASEURL) {
+var ServerComms = function(BASEURL, jq) {
 	this.BASEURL = BASEURL || 'http://localhost:3000/api/v1';
+	$ = jq || window.$;
 	return this;
 };
 
